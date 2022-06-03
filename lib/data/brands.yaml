@@ -288,6 +288,22 @@
     - 16
     :prefixes:
     - '5019'
+:hipercard:
+  :rules:
+  - :length:
+    - 16
+    :prefixes:
+    - '606282'
+  - :length:
+    - 19
+    :prefixes:
+    - '384'
+    - '606282'
+    - '637095'
+    - '637568'
+    - '637599'
+    - '637609'
+    - '637612'
 :rupay:
   :rules:
   - :length:
@@ -306,18 +322,6 @@
     - '608'
   :options:
     :skip_luhn: true
-:hipercard:
-  :rules:
-  - :length:
-    - 19
-    :prefixes:
-    - '384'
-    - '606282'
-    - '637095'
-    - '637568'
-    - '637599'
-    - '637609'
-    - '637612'
 :elo:
   :rules:
   - :length:
